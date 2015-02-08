@@ -1,0 +1,19 @@
+package org.apache.http.client.config;
+
+import org.apache.http.annotation.Immutable;
+
+@Immutable
+public final class CookieSpecs
+{
+  public static final String BEST_MATCH = "best-match";
+  public static final String BROWSER_COMPATIBILITY = "compatibility";
+  public static final String IGNORE_COOKIES = "ignoreCookies";
+  public static final String NETSCAPE = "netscape";
+  public static final String STANDARD = "standard";
+}
+
+
+/* Location:           C:\Users\delco\Desktop\projet_S4\test\src\dex2jar-0.0.7.7-SNAPSHOT\classes_dex2jar.jar
+ * Qualified Name:     org.apache.http.client.config.CookieSpecs
+ * JD-Core Version:    0.7.0.1
+ */
